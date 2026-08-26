@@ -1,0 +1,30 @@
+{
+  "name": "netline-admin-portal",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run api\" \"npm run dev:client\"",
+    "dev:client": "vite --port 3000 --host --open",
+    "api": "node server.mjs",
+    "dev:full": "npm run dev",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "lucide-react": "latest",
+    "mysql2": "^3.24.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "concurrently": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}

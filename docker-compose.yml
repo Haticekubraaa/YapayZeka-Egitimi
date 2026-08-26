@@ -1,0 +1,62 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tv-app
+    restart: unless-stopped
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    environment:
+      API_PORT: 4000
+      DB_HOST: mariadb
+      DB_PORT: 3306
+      DB_DATABASE: netline
+      DB_USERNAME: root
+      DB_PASSWORD: root54
+    ports:
+      - "4000:4000"
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "--quiet", "http://localhost:4000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  mariadb:
+    image: mariadb:11
+    container_name: tv-mariadb
+    restart: unless-stopped
+    environment:
+      MARIADB_ROOT_PASSWORD: root54
+      MARIADB_DATABASE: netline
+      MARIADB_USER: tv
+      MARIADB_PASSWORD: tv
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+      - ./db.sql:/docker-entrypoint-initdb.d/01-db.sql:ro
+      - ./procedures.sql:/docker-entrypoint-initdb.d/02-procedures.sql:ro
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: tv-phpmyadmin
+    restart: unless-stopped
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    environment:
+      PMA_HOST: mariadb
+      PMA_PORT: 3306
+      MYSQL_ROOT_PASSWORD: root54
+    ports:
+      - "8080:80"
+
+volumes:
+  mariadb_data:

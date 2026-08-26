@@ -1,0 +1,153 @@
+{
+  "dashboard": {
+    "kpis": [
+      { "label": "Toplam müşteri", "value": "12.846", "change": "%8,4", "direction": "up", "note": "geçen aya göre", "icon": "users", "accent": "blue" },
+      { "label": "Aktif hizmet", "value": "18.392", "change": "%5,2", "direction": "up", "note": "geçen aya göre", "icon": "package", "accent": "green" },
+      { "label": "Bekleyen başvuru", "value": "248", "change": "%12,8", "direction": "up", "note": "geçen aya göre", "icon": "clipboard", "accent": "orange" },
+      { "label": "Tahsilat oranı", "value": "%87,6", "change": "%2,1", "direction": "down", "note": "geçen aya göre", "icon": "money", "accent": "purple" }
+    ],
+    "applications": [
+      { "initials": "AY", "name": "Ahmet Yılmaz", "detail": "Fiber 100 Mbps", "time": "10 dk önce", "color": "blue" },
+      { "initials": "SE", "name": "Selin Erdem", "detail": "D-Smart + Fiber", "time": "24 dk önce", "color": "orange" },
+      { "initials": "MK", "name": "Mert Kılıç", "detail": "Fiber 500 Mbps", "time": "41 dk önce", "color": "purple" }
+    ],
+    "teams": [
+      { "name": "Kuzey Bölge Ekibi", "status": "Sahada", "task": "14 aktif görev", "color": "green" },
+      { "name": "Merkez Teknik", "status": "Müsait", "task": "6 ekip üyesi", "color": "blue" },
+      { "name": "Güney Bölge Ekibi", "status": "Meşgul", "task": "8 aktif görev", "color": "orange" }
+    ],
+    "revenue": "₺2.486.920"
+  },
+  "customers": [
+    { "Müşteri": "Ahmet Yılmaz", "Müşteri No": "NL-10001", "Telefon": "0532 441 20 18", "Hizmet": "Fiber 100 Mbps", "Durum": "Aktif" },
+    { "Müşteri": "Selin Erdem", "Müşteri No": "NL-10002", "Telefon": "0541 382 74 10", "Hizmet": "D-Smart + Fiber", "Durum": "Aktif" },
+    { "Müşteri": "Mert Kılıç", "Müşteri No": "NL-10003", "Telefon": "0553 901 44 26", "Hizmet": "Fiber 500 Mbps", "Durum": "Aktif" },
+    { "Müşteri": "Derya Aksoy", "Müşteri No": "NL-10004", "Telefon": "0506 112 63 90", "Hizmet": "Kablo TV", "Durum": "Beklemede" },
+    { "Müşteri": "Burak Şen", "Müşteri No": "NL-10005", "Telefon": "0536 774 08 52", "Hizmet": "Fiber 1000 Mbps", "Durum": "Aktif" },
+    { "Müşteri": "Elif Demir", "Müşteri No": "NL-10006", "Telefon": "0544 283 11 72", "Hizmet": "Fiber 100 Mbps", "Durum": "Pasif" },
+    { "Müşteri": "Can Kaya", "Müşteri No": "NL-10007", "Telefon": "0551 630 47 39", "Hizmet": "D-Smart", "Durum": "Aktif" },
+    { "Müşteri": "Zeynep Çelik", "Müşteri No": "NL-10008", "Telefon": "0530 902 18 66", "Hizmet": "Fiber 500 Mbps", "Durum": "Aktif" },
+    { "Müşteri": "Onur Aydın", "Müşteri No": "NL-10009", "Telefon": "0507 451 29 03", "Hizmet": "Kablo TV", "Durum": "Aktif" },
+    { "Müşteri": "Ece Yalçın", "Müşteri No": "NL-10010", "Telefon": "0542 718 36 45", "Hizmet": "Fiber 100 Mbps", "Durum": "Beklemede" }
+  ],
+  "services": [
+    { "Hizmet": "Fiber 100 Mbps", "Kod": "FBR-100", "Aktif Abone": "5.842", "Aylık Ücret": "₺399", "Durum": "Aktif" },
+    { "Hizmet": "Fiber 500 Mbps", "Kod": "FBR-500", "Aktif Abone": "2.910", "Aylık Ücret": "₺549", "Durum": "Aktif" },
+    { "Hizmet": "Fiber 1000 Mbps", "Kod": "FBR-1K", "Aktif Abone": "1.090", "Aylık Ücret": "₺799", "Durum": "Aktif" },
+    { "Hizmet": "Kablo TV Başlangıç", "Kod": "KTV-001", "Aktif Abone": "2.218", "Aylık Ücret": "₺189", "Durum": "Aktif" },
+    { "Hizmet": "Kablo TV Premium", "Kod": "KTV-002", "Aktif Abone": "2.000", "Aylık Ücret": "₺289", "Durum": "Aktif" },
+    { "Hizmet": "D-Smart Aile", "Kod": "DSM-101", "Aktif Abone": "1.746", "Aylık Ücret": "₺249", "Durum": "Aktif" },
+    { "Hizmet": "D-Smart Spor", "Kod": "DSM-202", "Aktif Abone": "1.160", "Aylık Ücret": "₺429", "Durum": "Aktif" },
+    { "Hizmet": "Statik IP", "Kod": "EK-010", "Aktif Abone": "326", "Aylık Ücret": "₺79", "Durum": "Aktif" },
+    { "Hizmet": "Wi-Fi 6 Modem", "Kod": "EK-020", "Aktif Abone": "780", "Aylık Ücret": "₺49", "Durum": "Aktif" },
+    { "Hizmet": "Kurumsal Fiber", "Kod": "KRM-500", "Aktif Abone": "320", "Aylık Ücret": "₺1.299", "Durum": "Aktif" }
+  ],
+  "campaigns": [
+    { "Kampanya": "Yaz Fiber Fırsatı", "Kod": "YAZ24", "Hedef": "Yeni müşteri", "Katılım": "842", "Bitiş": "30 Haz 2024", "Durum": "Aktif" },
+    { "Kampanya": "Arkadaşını Getir", "Kod": "DOST10", "Hedef": "Mevcut müşteri", "Katılım": "516", "Bitiş": "15 Tem 2024", "Durum": "Aktif" },
+    { "Kampanya": "Aile Eğlence Paketi", "Kod": "AILE25", "Hedef": "TV aboneleri", "Katılım": "390", "Bitiş": "31 Tem 2024", "Durum": "Aktif" },
+    { "Kampanya": "İlk 3 Ay Ücretsiz", "Kod": "ILK3AY", "Hedef": "Yeni müşteri", "Katılım": "274", "Bitiş": "10 Ağu 2024", "Durum": "Aktif" },
+    { "Kampanya": "Spor Keyfi", "Kod": "SPOR50", "Hedef": "Spor paketi", "Katılım": "198", "Bitiş": "20 Haz 2024", "Durum": "Sona erdi" },
+    { "Kampanya": "Sadakat Bonusu", "Kod": "SADAKAT", "Hedef": "3+ yıl müşteri", "Katılım": "634", "Bitiş": "31 Ara 2024", "Durum": "Aktif" },
+    { "Kampanya": "Öğrenci Fiber", "Kod": "OGRENCI", "Hedef": "Öğrenci", "Katılım": "145", "Bitiş": "30 Eyl 2024", "Durum": "Aktif" },
+    { "Kampanya": "Kışa Hazır", "Kod": "KIS24", "Hedef": "Tüm müşteriler", "Katılım": "1.024", "Bitiş": "15 Mar 2024", "Durum": "Sona erdi" },
+    { "Kampanya": "Kurumsal Hoş Geldin", "Kod": "KRM15", "Hedef": "Kurumsal", "Katılım": "72", "Bitiş": "31 Ağu 2024", "Durum": "Aktif" },
+    { "Kampanya": "Modem Yenileme", "Kod": "YENILE", "Hedef": "Eski modem", "Katılım": "308", "Bitiş": "30 Kas 2024", "Durum": "Taslak" }
+  ],
+  "applications": [
+    { "Başvuru": "Ahmet Yılmaz", "No": "BŞV-2401", "Hizmet": "Fiber 100 Mbps", "Kanal": "Web", "Tarih": "24 Haz 2024", "Durum": "İnceleniyor" },
+    { "Başvuru": "Selin Erdem", "No": "BŞV-2402", "Hizmet": "D-Smart + Fiber", "Kanal": "Çağrı merkezi", "Tarih": "24 Haz 2024", "Durum": "İnceleniyor" },
+    { "Başvuru": "Mert Kılıç", "No": "BŞV-2403", "Hizmet": "Fiber 500 Mbps", "Kanal": "Bayi", "Tarih": "24 Haz 2024", "Durum": "Onaylandı" },
+    { "Başvuru": "Derya Aksoy", "No": "BŞV-2404", "Hizmet": "Kablo TV", "Kanal": "Web", "Tarih": "23 Haz 2024", "Durum": "Eksik belge" },
+    { "Başvuru": "Burak Şen", "No": "BŞV-2405", "Hizmet": "Fiber 1000 Mbps", "Kanal": "Bayi", "Tarih": "23 Haz 2024", "Durum": "Onaylandı" },
+    { "Başvuru": "Elif Demir", "No": "BŞV-2406", "Hizmet": "Fiber 100 Mbps", "Kanal": "Web", "Tarih": "22 Haz 2024", "Durum": "İptal edildi" },
+    { "Başvuru": "Can Kaya", "No": "BŞV-2407", "Hizmet": "D-Smart", "Kanal": "Mobil", "Tarih": "22 Haz 2024", "Durum": "İnceleniyor" },
+    { "Başvuru": "Zeynep Çelik", "No": "BŞV-2408", "Hizmet": "Fiber 500 Mbps", "Kanal": "Web", "Tarih": "21 Haz 2024", "Durum": "Onaylandı" },
+    { "Başvuru": "Onur Aydın", "No": "BŞV-2409", "Hizmet": "Kablo TV", "Kanal": "Çağrı merkezi", "Tarih": "21 Haz 2024", "Durum": "İnceleniyor" },
+    { "Başvuru": "Ece Yalçın", "No": "BŞV-2410", "Hizmet": "Fiber 100 Mbps", "Kanal": "Mobil", "Tarih": "20 Haz 2024", "Durum": "Onaylandı" }
+  ],
+  "invoices": [
+    { "Fatura": "Ahmet Yılmaz", "No": "FT-240601", "Tutar": "₺399,00", "Son Ödeme": "05 Tem 2024", "Ödeme Kanalı": "Otomatik ödeme", "Durum": "Ödendi" },
+    { "Fatura": "Selin Erdem", "No": "FT-240602", "Tutar": "₺648,00", "Son Ödeme": "05 Tem 2024", "Ödeme Kanalı": "Kredi kartı", "Durum": "Ödendi" },
+    { "Fatura": "Mert Kılıç", "No": "FT-240603", "Tutar": "₺549,00", "Son Ödeme": "05 Tem 2024", "Ödeme Kanalı": "Bekliyor", "Durum": "Beklemede" },
+    { "Fatura": "Derya Aksoy", "No": "FT-240604", "Tutar": "₺189,00", "Son Ödeme": "05 Tem 2024", "Ödeme Kanalı": "Banka", "Durum": "Gecikmiş" },
+    { "Fatura": "Burak Şen", "No": "FT-240605", "Tutar": "₺799,00", "Son Ödeme": "05 Tem 2024", "Ödeme Kanalı": "Otomatik ödeme", "Durum": "Ödendi" },
+    { "Fatura": "Elif Demir", "No": "FT-240606", "Tutar": "₺399,00", "Son Ödeme": "05 Tem 2024", "Ödeme Kanalı": "Kredi kartı", "Durum": "İptal" },
+    { "Fatura": "Can Kaya", "No": "FT-240607", "Tutar": "₺249,00", "Son Ödeme": "05 Tem 2024", "Ödeme Kanalı": "Banka", "Durum": "Ödendi" },
+    { "Fatura": "Zeynep Çelik", "No": "FT-240608", "Tutar": "₺549,00", "Son Ödeme": "05 Tem 2024", "Ödeme Kanalı": "Mobil ödeme", "Durum": "Beklemede" },
+    { "Fatura": "Onur Aydın", "No": "FT-240609", "Tutar": "₺189,00", "Son Ödeme": "05 Tem 2024", "Ödeme Kanalı": "Otomatik ödeme", "Durum": "Ödendi" },
+    { "Fatura": "Ece Yalçın", "No": "FT-240610", "Tutar": "₺399,00", "Son Ödeme": "05 Tem 2024", "Ödeme Kanalı": "Kredi kartı", "Durum": "Gecikmiş" }
+  ],
+  "tickets": [
+    { "Talep": "Bağlantı yavaşlığı", "No": "TLP-501", "Müşteri": "Derya Aksoy", "Kategori": "Teknik", "Oluşturulma": "24 Haz 2024", "Durum": "Açık" },
+    { "Talep": "Fatura itirazı", "No": "TLP-502", "Müşteri": "Mert Kılıç", "Kategori": "Faturalama", "Oluşturulma": "24 Haz 2024", "Durum": "İnceleniyor" },
+    { "Talep": "Modem kurulumu", "No": "TLP-503", "Müşteri": "Ece Yalçın", "Kategori": "Kurulum", "Oluşturulma": "23 Haz 2024", "Durum": "Atandı" },
+    { "Talep": "Kanal güncelleme", "No": "TLP-504", "Müşteri": "Onur Aydın", "Kategori": "TV", "Oluşturulma": "23 Haz 2024", "Durum": "Çözüldü" },
+    { "Talep": "Adres değişikliği", "No": "TLP-505", "Müşteri": "Elif Demir", "Kategori": "Abonelik", "Oluşturulma": "22 Haz 2024", "Durum": "Açık" },
+    { "Talep": "İnternet kesintisi", "No": "TLP-506", "Müşteri": "Can Kaya", "Kategori": "Teknik", "Oluşturulma": "22 Haz 2024", "Durum": "Atandı" },
+    { "Talep": "Paket yükseltme", "No": "TLP-507", "Müşteri": "Zeynep Çelik", "Kategori": "Satış", "Oluşturulma": "21 Haz 2024", "Durum": "Çözüldü" },
+    { "Talep": "Ödeme yöntemi", "No": "TLP-508", "Müşteri": "Burak Şen", "Kategori": "Faturalama", "Oluşturulma": "21 Haz 2024", "Durum": "İnceleniyor" },
+    { "Talep": "Sinyal problemi", "No": "TLP-509", "Müşteri": "Selin Erdem", "Kategori": "TV", "Oluşturulma": "20 Haz 2024", "Durum": "Açık" },
+    { "Talep": "Kampanya başvurusu", "No": "TLP-510", "Müşteri": "Ahmet Yılmaz", "Kategori": "Kampanya", "Oluşturulma": "20 Haz 2024", "Durum": "Çözüldü" }
+  ],
+  "teams": [
+    { "Ekip": "Kuzey Bölge Ekibi", "Bölge": "İstanbul Avrupa", "Sorumlu": "Emre Koç", "Aktif Görev": "14", "Durum": "Sahada" },
+    { "Ekip": "Merkez Teknik", "Bölge": "İstanbul Merkez", "Sorumlu": "Seda Arslan", "Aktif Görev": "6", "Durum": "Müsait" },
+    { "Ekip": "Güney Bölge Ekibi", "Bölge": "İstanbul Anadolu", "Sorumlu": "Okan Yıldız", "Aktif Görev": "8", "Durum": "Meşgul" },
+    { "Ekip": "Ankara Saha 1", "Bölge": "Ankara Çankaya", "Sorumlu": "Bora Tunç", "Aktif Görev": "5", "Durum": "Sahada" },
+    { "Ekip": "Ankara Saha 2", "Bölge": "Ankara Keçiören", "Sorumlu": "İpek Uslu", "Aktif Görev": "3", "Durum": "Müsait" },
+    { "Ekip": "İzmir Teknik", "Bölge": "İzmir Bornova", "Sorumlu": "Murat Eren", "Aktif Görev": "9", "Durum": "Meşgul" },
+    { "Ekip": "Bursa Saha", "Bölge": "Bursa Nilüfer", "Sorumlu": "Aslı Güneş", "Aktif Görev": "4", "Durum": "Müsait" },
+    { "Ekip": "Kocaeli Destek", "Bölge": "Kocaeli Gebze", "Sorumlu": "Tolga Keskin", "Aktif Görev": "7", "Durum": "Sahada" },
+    { "Ekip": "Bakım Ekibi A", "Bölge": "İstanbul Avrupa", "Sorumlu": "Nuri Akın", "Aktif Görev": "2", "Durum": "Müsait" },
+    { "Ekip": "Acil Müdahale", "Bölge": "Tüm bölgeler", "Sorumlu": "Cem Öz", "Aktif Görev": "1", "Durum": "Hazır" }
+  ],
+  "maintenance": [
+    { "Bakım": "Avrupa Yakası omurga bakımı", "Bölge": "İstanbul Avrupa", "Başlangıç": "24 Haz 23:00", "Bitiş": "25 Haz 03:00", "Etkilenen": "1.240", "Durum": "Planlandı" },
+    { "Bakım": "Kadıköy saha dolabı", "Bölge": "İstanbul Anadolu", "Başlangıç": "26 Haz 01:00", "Bitiş": "26 Haz 04:00", "Etkilenen": "380", "Durum": "Planlandı" },
+    { "Bakım": "Çankaya fiber hattı", "Bölge": "Ankara", "Başlangıç": "27 Haz 00:00", "Bitiş": "27 Haz 02:00", "Etkilenen": "215", "Durum": "Planlandı" },
+    { "Bakım": "Bornova enerji yenileme", "Bölge": "İzmir", "Başlangıç": "28 Haz 02:00", "Bitiş": "28 Haz 05:00", "Etkilenen": "490", "Durum": "Planlandı" },
+    { "Bakım": "Bursa merkez ekipman", "Bölge": "Bursa", "Başlangıç": "29 Haz 01:00", "Bitiş": "29 Haz 03:00", "Etkilenen": "170", "Durum": "Planlandı" },
+    { "Bakım": "Gebze dağıtım noktası", "Bölge": "Kocaeli", "Başlangıç": "30 Haz 23:00", "Bitiş": "01 Tem 02:00", "Etkilenen": "320", "Durum": "Planlandı" },
+    { "Bakım": "Avcılar kablo yenileme", "Bölge": "İstanbul Avrupa", "Başlangıç": "02 Tem 00:00", "Bitiş": "02 Tem 04:00", "Etkilenen": "610", "Durum": "Taslak" },
+    { "Bakım": "Üsküdar saha güncellemesi", "Bölge": "İstanbul Anadolu", "Başlangıç": "03 Tem 01:00", "Bitiş": "03 Tem 03:00", "Etkilenen": "265", "Durum": "Taslak" },
+    { "Bakım": "Sistem yazılım güncellemesi", "Bölge": "Tüm bölgeler", "Başlangıç": "04 Tem 02:00", "Bitiş": "04 Tem 03:00", "Etkilenen": "0", "Durum": "Planlandı" },
+    { "Bakım": "Yedek hat testi", "Bölge": "İstanbul Merkez", "Başlangıç": "05 Tem 23:00", "Bitiş": "06 Tem 01:00", "Etkilenen": "0", "Durum": "Tamamlandı" }
+  ],
+  "announcements": [
+    { "Duyuru": "Planlı bakım bildirimi", "Kategori": "Bakım", "Yayın Tarihi": "24 Haz 2024", "Hedef Kitle": "Tüm müşteriler", "Görüntülenme": "8.420", "Durum": "Yayında" },
+    { "Duyuru": "Yaz kampanyaları başladı", "Kategori": "Kampanya", "Yayın Tarihi": "20 Haz 2024", "Hedef Kitle": "Tüm müşteriler", "Görüntülenme": "6.180", "Durum": "Yayında" },
+    { "Duyuru": "Mobil uygulama güncellemesi", "Kategori": "Ürün", "Yayın Tarihi": "18 Haz 2024", "Hedef Kitle": "Mobil kullanıcılar", "Görüntülenme": "3.250", "Durum": "Yayında" },
+    { "Duyuru": "Fatura son ödeme tarihi", "Kategori": "Faturalama", "Yayın Tarihi": "15 Haz 2024", "Hedef Kitle": "Faturalı müşteriler", "Görüntülenme": "4.870", "Durum": "Yayında" },
+    { "Duyuru": "Yeni kanal listesi", "Kategori": "TV", "Yayın Tarihi": "10 Haz 2024", "Hedef Kitle": "TV müşterileri", "Görüntülenme": "2.910", "Durum": "Yayında" },
+    { "Duyuru": "Gizlilik politikası güncellemesi", "Kategori": "Yasal", "Yayın Tarihi": "05 Haz 2024", "Hedef Kitle": "Tüm kullanıcılar", "Görüntülenme": "1.840", "Durum": "Arşiv" },
+    { "Duyuru": "Çağrı merkezi çalışma saatleri", "Kategori": "Bilgi", "Yayın Tarihi": "01 Haz 2024", "Hedef Kitle": "Tüm müşteriler", "Görüntülenme": "2.420", "Durum": "Yayında" },
+    { "Duyuru": "Fiber altyapı genişlemesi", "Kategori": "Altyapı", "Yayın Tarihi": "28 May 2024", "Hedef Kitle": "İstanbul", "Görüntülenme": "5.110", "Durum": "Yayında" },
+    { "Duyuru": "Bayi portalı yenilendi", "Kategori": "Bayi", "Yayın Tarihi": "20 May 2024", "Hedef Kitle": "Bayiler", "Görüntülenme": "860", "Durum": "Arşiv" },
+    { "Duyuru": "Yeni destek kanalı", "Kategori": "Destek", "Yayın Tarihi": "15 May 2024", "Hedef Kitle": "Tüm müşteriler", "Görüntülenme": "1.920", "Durum": "Yayında" }
+  ],
+  "users": [
+    { "Kullanıcı": "Berkay Kaya", "E-posta": "berkay.kaya@netline.com", "Rol": "Yönetici", "Son Aktivite": "Şimdi", "Durum": "Aktif" },
+    { "Kullanıcı": "Seda Arslan", "E-posta": "seda.arslan@netline.com", "Rol": "Operasyon yöneticisi", "Son Aktivite": "5 dk önce", "Durum": "Aktif" },
+    { "Kullanıcı": "Emre Koç", "E-posta": "emre.koc@netline.com", "Rol": "Saha sorumlusu", "Son Aktivite": "18 dk önce", "Durum": "Aktif" },
+    { "Kullanıcı": "İpek Uslu", "E-posta": "ipek.uslu@netline.com", "Rol": "Müşteri temsilcisi", "Son Aktivite": "32 dk önce", "Durum": "Aktif" },
+    { "Kullanıcı": "Murat Eren", "E-posta": "murat.eren@netline.com", "Rol": "Teknik uzman", "Son Aktivite": "1 saat önce", "Durum": "Aktif" },
+    { "Kullanıcı": "Aslı Güneş", "E-posta": "asli.gunes@netline.com", "Rol": "Müşteri temsilcisi", "Son Aktivite": "2 saat önce", "Durum": "Aktif" },
+    { "Kullanıcı": "Tolga Keskin", "E-posta": "tolga.keskin@netline.com", "Rol": "Saha sorumlusu", "Son Aktivite": "3 saat önce", "Durum": "Pasif" },
+    { "Kullanıcı": "Nuri Akın", "E-posta": "nuri.akin@netline.com", "Rol": "Teknik uzman", "Son Aktivite": "Dün", "Durum": "Aktif" },
+    { "Kullanıcı": "Cem Öz", "E-posta": "cem.oz@netline.com", "Rol": "Acil müdahale", "Son Aktivite": "Dün", "Durum": "Aktif" },
+    { "Kullanıcı": "Bora Tunç", "E-posta": "bora.tunc@netline.com", "Rol": "Saha sorumlusu", "Son Aktivite": "2 gün önce", "Durum": "Davet bekliyor" }
+  ],
+  "settings": [
+    { "Ayar": "Bildirim tercihleri", "Kategori": "Bildirimler", "Değer": "E-posta ve uygulama", "Güncelleme": "24 Haz 2024", "Durum": "Aktif" },
+    { "Ayar": "Otomatik fatura hatırlatma", "Kategori": "Faturalama", "Değer": "5 gün önce", "Güncelleme": "24 Haz 2024", "Durum": "Aktif" },
+    { "Ayar": "Varsayılan para birimi", "Kategori": "Genel", "Değer": "Türk Lirası (₺)", "Güncelleme": "20 Haz 2024", "Durum": "Aktif" },
+    { "Ayar": "Oturum zaman aşımı", "Kategori": "Güvenlik", "Değer": "30 dakika", "Güncelleme": "18 Haz 2024", "Durum": "Aktif" },
+    { "Ayar": "İki adımlı doğrulama", "Kategori": "Güvenlik", "Değer": "Zorunlu", "Güncelleme": "18 Haz 2024", "Durum": "Aktif" },
+    { "Ayar": "Müşteri veri dışa aktarımı", "Kategori": "Gizlilik", "Değer": "Yönetici onayı", "Güncelleme": "15 Haz 2024", "Durum": "Aktif" },
+    { "Ayar": "Varsayılan dil", "Kategori": "Genel", "Değer": "Türkçe", "Güncelleme": "10 Haz 2024", "Durum": "Aktif" },
+    { "Ayar": "Bakım uyarı eşiği", "Kategori": "Operasyon", "Değer": "24 saat önce", "Güncelleme": "08 Haz 2024", "Durum": "Aktif" },
+    { "Ayar": "Denetim kayıtları", "Kategori": "Güvenlik", "Değer": "365 gün", "Güncelleme": "05 Haz 2024", "Durum": "Aktif" },
+    { "Ayar": "Bayi erişim seviyesi", "Kategori": "Yetkilendirme", "Değer": "Sınırlı", "Güncelleme": "01 Haz 2024", "Durum": "Pasif" }
+  ]
+}
